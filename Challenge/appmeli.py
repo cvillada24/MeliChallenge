@@ -6,6 +6,7 @@ from pymongo.errors import ServerSelectionTimeoutError
 from bson.json_util import dumps
 import os #libreria para poder leer el entorno
 import requests
+import platform
 
 load_dotenv() #Traer el archivo con variables de entorno
 name_database = os.getenv("DATABASE")
