@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bdusersmeli:
+    image: cvillada24/appmeli:v2
+    restart: always
+    ports:
+      - "4000:4000"
+    

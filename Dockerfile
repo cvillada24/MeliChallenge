@@ -6,5 +6,4 @@ RUN virtualenv venv
 COPY . /melichallenge
 RUN pip3 install -r requirement.txt
 EXPOSE 4000
-CMD ["python3", "./Challenge/appmeli.py"] 
-
+CMD ["python3", "./Challenge/appmeli.py"]
